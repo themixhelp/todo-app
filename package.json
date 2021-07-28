@@ -1,0 +1,20 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "todo-app in vanilla js!",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "postcss ./src/tailwind.css -o ./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themixhelp/todo-app"
+  },
+  "author": "themixhelp",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
